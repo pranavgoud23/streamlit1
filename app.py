@@ -218,7 +218,6 @@ for index, product in enumerate(filtered_products):
         ):
             st.session_state.cart.append(product)
             st.success(f"{product['name']} added to cart!")
-
 # ----------------------------------------------------
 # Footer
 # ----------------------------------------------------
